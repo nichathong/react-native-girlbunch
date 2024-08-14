@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "669563702115",
+    "project_id": "girlbunch",
+    "storage_bucket": "girlbunch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669563702115:android:56ab12b18972282c45e156",
+        "android_client_info": {
+          "package_name": "com.nicha.girlbunch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDvtTs3-i9kNBFskzUQYeVKnDsJqWssPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
