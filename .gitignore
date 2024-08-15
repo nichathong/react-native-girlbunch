@@ -2,6 +2,7 @@ node_modules/
 .expo/
 dist/
 npm-debug.*
+package-lock.json
 *.jks
 *.p8
 *.p12
@@ -9,7 +10,10 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
-
+/ios
+/android
+ios/build/
+android/build/
 # macOS
 .DS_Store
 
