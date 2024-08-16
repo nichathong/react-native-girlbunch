@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "669563702115",
+    "firebase_url": "https://girlbunch-default-rtdb.firebaseio.com",
     "project_id": "girlbunch",
     "storage_bucket": "girlbunch.appspot.com"
   },
@@ -12,7 +13,12 @@
           "package_name": "com.nicha.girlbunch"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "669563702115-5putj5u84vb32sckbh65p4dsla34h8kn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCDvtTs3-i9kNBFskzUQYeVKnDsJqWssPY"
@@ -20,7 +26,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669563702115-5putj5u84vb32sckbh65p4dsla34h8kn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "669563702115-4gs1hmuubvh3itbpakk6lim4t0qg2lpr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nicha.girlbunch"
+              }
+            }
+          ]
         }
       }
     }

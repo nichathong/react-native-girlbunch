@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CLIENT_ID</key>
+	<string>669563702115-4gs1hmuubvh3itbpakk6lim4t0qg2lpr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.669563702115-4gs1hmuubvh3itbpakk6lim4t0qg2lpr</string>
 	<key>API_KEY</key>
 	<string>AIzaSyDlx_rqLYUUDd0SWZfD7OsMTjfqAbQS12Y</string>
 	<key>GCM_SENDER_ID</key>
@@ -26,5 +30,7 @@
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:669563702115:ios:c4583710362c1f0745e156</string>
+	<key>DATABASE_URL</key>
+	<string>https://girlbunch-default-rtdb.firebaseio.com</string>
 </dict>
 </plist>

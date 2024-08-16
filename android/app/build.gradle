@@ -109,9 +109,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.jsm.sora'
+    namespace 'com.nicha.girlbunch'
     defaultConfig {
-        applicationId 'com.jsm.sora'
+        applicationId 'com.nicha.girlbunch'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

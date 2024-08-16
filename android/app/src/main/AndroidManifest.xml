@@ -26,6 +26,7 @@
         <category android:name="android.intent.category.BROWSABLE"/>
         <data android:scheme="girlbunch"/>
         <data android:scheme="com.jsm.sora"/>
+        <data android:scheme="com.nicha.girlbunch"/>
       </intent-filter>
     </activity>
     <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" android:exported="false"/>
