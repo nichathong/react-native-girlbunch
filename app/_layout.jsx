@@ -1,7 +1,8 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useFonts } from "expo-font";
 import "react-native-url-polyfill/auto";
 import { SplashScreen, Stack } from "expo-router";
+// import auth, { FirebaseAuthTypes } from '@react-native-firebase/auth';
 
 
 
@@ -9,6 +10,8 @@ import { SplashScreen, Stack } from "expo-router";
 SplashScreen.preventAutoHideAsync();
 
 const RootLayout = () => {
+  // const [initializing, setInitializing] = useState(true);
+  // const [user, setUser] = useState(null);
   const [fontsLoaded, error] = useFonts({
     "Poppins-Black": require("../assets/fonts/Poppins-Black.ttf"),
     "Poppins-Bold": require("../assets/fonts/Poppins-Bold.ttf"),

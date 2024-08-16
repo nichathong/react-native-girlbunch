@@ -6,6 +6,8 @@ import FormField from "../../components/FormField";
 import { useState } from "react";
 import CustomButton from "../../components/CustomButton";
 import { Link } from "expo-router";
+import auth from '@react-native-firebase/auth';
+import { FirebaseError } from 'firebase/app';
 
 const SignUp = () => {
   const [form, setform] = useState({
@@ -13,6 +15,7 @@ const SignUp = () => {
     email: "",
     password: "",
   });
+
   const [isSummiting, setisSummiting] = useState(false);
   const submit = () => {};
   return (
