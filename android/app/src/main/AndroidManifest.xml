@@ -25,7 +25,6 @@
         <category android:name="android.intent.category.DEFAULT"/>
         <category android:name="android.intent.category.BROWSABLE"/>
         <data android:scheme="girlbunch"/>
-        <data android:scheme="com.jsm.sora"/>
         <data android:scheme="com.nicha.girlbunch"/>
       </intent-filter>
     </activity>

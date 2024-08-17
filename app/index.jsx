@@ -28,12 +28,12 @@ export default function App() {
 
             <View className="relative mt-5">
               <Text className="text-3xl text-white font-bold text-center">
-                Discover Endless{"\n"}
-                Possibilities with{" "}
-                <Text className="text-secondary-200">Aora</Text>
+                Connect, Support, Inspire{"\n"}
+                Empower Young Women{" "}
+                <Text className="text-secondary-200">GB</Text>
               </Text>
 
-            {/* line under the word 'aora' */}
+              {/* line under the word  */}
               <Image
                 source={images.path}
                 className="w-[136px] h-[15px] absolute -bottom-2 -right-8"
@@ -42,18 +42,18 @@ export default function App() {
             </View>
 
             <Text className="text-sm font-pregular text-gray-100 mt-7 text-center">
-              Where Creativity Meets Innovation: Embark on a Journey of
-              Limitless Exploration with Aora
+              Lorem ipsum dolor sit amet, adipiscing eli sed do
+              eiusmod tempor incididunt ut magna aliqua
             </Text>
             <CustomButton
-                title="Continue with Email"
-                handlePress={ () => router.push('/sign-in')}
-                containerStyles="w-full mt-7"
+              title="Continue with Email"
+              handlePress={() => router.push("/sign-in")}
+              containerStyles="w-full mt-7"
             />
           </View>
         </ScrollView>
         {/* review this part */}
-        <StatusBar backgroundColor="#161622" style='light'/>
+        <StatusBar backgroundColor="#161622" style="light" />
       </SafeAreaView>
     );
 }
